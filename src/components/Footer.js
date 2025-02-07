@@ -3,11 +3,11 @@ import React, { Component } from "react";
 class Footer extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
-      var networks = this.props.sharedBasicInfo.social.map(function (network) {
+      var redes = this.props.sharedBasicInfo.social.map(function (red) {
         return (
-          <span key={network.name} className="m-4">
-            <a href={network.url} target="_blank" rel="noopener noreferrer">
-              <i className={network.class}></i>
+          <span key={red.name} className="m-4">
+            <a href={red.url} target="_blank" rel="noopener noreferrer">
+              <i className={red.class}></i>
             </a>
           </span>
         );
@@ -17,7 +17,7 @@ class Footer extends Component {
     return (
       <footer>
         <div className="col-md-12">
-          <div className="social-links">{networks}</div>
+          <div className="social-links">{redes}</div>
 
           <div className="copyright py-4 text-center">
             <div className="container">

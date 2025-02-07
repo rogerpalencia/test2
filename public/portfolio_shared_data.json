@@ -1,137 +1,137 @@
 {
-  "basic_info": {
-    "name": "Kevin Palencia",
-    "titles": [
-      "Front-end Developer",
-      "Mobile App Developer",
-      "Full Stack Developer",
-      "Systems Engineer"
+  "informacion_basica": {
+    "nombre": "Kevin Palencia",
+    "titulos": [
+      "Desarrollador Front-end",
+      "Desarrollador de Aplicaciones Móviles",
+      "Desarrollador Full Stack",
+      "Ingeniero de Sistemas"
     ],
     "social": [
       {
-        "name": "github",
+        "nombre": "github",
         "url": "https://github.com",
-        "class": "fab fa-github"
+        "clase": "fab fa-github"
       },
       {
-        "name": "instagram",
+        "nombre": "instagram",
         "url": "https://www.instagram.com",
-        "class": "fab fa-instagram"
+        "clase": "fab fa-instagram"
       },
       {
-        "name": "linkedin",
+        "nombre": "linkedin",
         "url": "https://www.linkedin.com/in/kevinpalencia",
-        "class": "fab fa-linkedin"
+        "clase": "fab fa-linkedin"
       },
       {
-        "name": "email",
+        "nombre": "email",
         "url": "mailto:kevinpalencia@protonmail.com",
-        "class": "fas fa-envelope"
+        "clase": "fas fa-envelope"
       }
     ],
-    "image": "myProfile.jpg"
+    "imagen": "myProfile.jpg"
   },
-  "skills": {
-    "icons": [
+  "habilidades": {
+    "iconos": [
       {
-        "name": "HTML 5",
-        "class": "devicon-html5-plain",
-        "level": "95"
+        "nombre": "HTML 5",
+        "clase": "devicon-html5-plain",
+        "nivel": "95"
       },
       {
-        "name": "CSS 3",
-        "class": "devicon-css3-plain",
-        "level": "95"
+        "nombre": "CSS 3",
+        "clase": "devicon-css3-plain",
+        "nivel": "95"
       },
       {
-        "name": "JavaScript",
-        "class": "devicon-javascript-plain",
-        "level": "90"
+        "nombre": "JavaScript",
+        "clase": "devicon-javascript-plain",
+        "nivel": "90"
       },
       {
-        "name": "TypeScript",
-        "class": "devicon-typescript-plain",
-        "level": "85"
+        "nombre": "TypeScript",
+        "clase": "devicon-typescript-plain",
+        "nivel": "85"
       },
       {
-        "name": "React.js",
-        "class": "devicon-react-original",
-        "level": "90"
+        "nombre": "React.js",
+        "clase": "devicon-react-original",
+        "nivel": "90"
       },
       {
-        "name": "Angular",
-        "class": "devicon-angularjs-plain",
-        "level": "75"
+        "nombre": "Angular",
+        "clase": "devicon-angularjs-plain",
+        "nivel": "75"
       },
       {
-        "name": "Bootstrap",
-        "class": "devicon-bootstrap-plain",
-        "level": "85"
+        "nombre": "Bootstrap",
+        "clase": "devicon-bootstrap-plain",
+        "nivel": "85"
       },
       {
-        "name": "Sass",
-        "class": "devicon-sass-original",
-        "level": "80"
+        "nombre": "Sass",
+        "clase": "devicon-sass-original",
+        "nivel": "80"
       },
       {
-        "name": "C#",
-        "class": "devicon-csharp-plain",
-        "level": "70"
+        "nombre": "C#",
+        "clase": "devicon-csharp-plain",
+        "nivel": "70"
       },
       {
-        "name": "PHP",
-        "class": "devicon-php-plain",
-        "level": "85"
+        "nombre": "PHP",
+        "clase": "devicon-php-plain",
+        "nivel": "85"
       },
       {
-        "name": "Python",
-        "class": "devicon-python-plain",
-        "level": "75"
+        "nombre": "Python",
+        "clase": "devicon-python-plain",
+        "nivel": "75"
       },
       {
-        "name": "MySQL",
-        "class": "devicon-mysql-plain",
-        "level": "80"
+        "nombre": "MySQL",
+        "clase": "devicon-mysql-plain",
+        "nivel": "80"
       },
       {
-        "name": "PostgreSQL",
-        "class": "devicon-postgresql-plain",
-        "level": "75"
+        "nombre": "PostgreSQL",
+        "clase": "devicon-postgresql-plain",
+        "nivel": "75"
       },
       {
-        "name": "Git",
-        "class": "devicon-git-plain",
-        "level": "90"
+        "nombre": "Git",
+        "clase": "devicon-git-plain",
+        "nivel": "90"
       },
       {
-        "name": "Linux",
-        "class": "devicon-linux-plain",
-        "level": "80"
+        "nombre": "Linux",
+        "clase": "devicon-linux-plain",
+        "nivel": "80"
       },
       {
-        "name": "WordPress",
-        "class": "devicon-wordpress-plain",
-        "level": "70"
+        "nombre": "WordPress",
+        "clase": "devicon-wordpress-plain",
+        "nivel": "70"
       },
       {
-        "name": "Figma",
-        "class": "devicon-figma-plain",
-        "level": "65"
+        "nombre": "Figma",
+        "clase": "devicon-figma-plain",
+        "nivel": "65"
       },
       {
-        "name": "SEO",
-        "class": "fas fa-search",
-        "level": "60"
+        "nombre": "SEO",
+        "clase": "fas fa-search",
+        "nivel": "60"
       },
       {
-        "name": "Dart",
-        "class": "devicon-dart-plain",
-        "level": "80"
+        "nombre": "Dart",
+        "clase": "devicon-dart-plain",
+        "nivel": "80"
       },
       {
-        "name": "Flutter",
-        "class": "devicon-flutter-plain",
-        "level": "85"
+        "nombre": "Flutter",
+        "clase": "devicon-flutter-plain",
+        "nivel": "85"
       }
     ]
   }

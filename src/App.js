@@ -19,40 +19,40 @@ class App extends Component {
     };
   }
 
-  applyPickedLanguage(pickedLanguage, oppositeLangIconId) {
-    this.swapCurrentlyActiveLanguage(oppositeLangIconId);
-    document.documentElement.lang = pickedLanguage;
-    var resumePath =
+  aplicarIdiomaSeleccionado(idiomaSeleccionado, idIconoIdiomaOpuesto) {
+    this.cambiarIdiomaActivo(idIconoIdiomaOpuesto);
+    document.documentElement.lang = idiomaSeleccionado;
+    var rutaCurriculum =
       document.documentElement.lang === window.$primaryLanguage
         ? `res_primaryLanguage.json`
         : `res_secondaryLanguage.json`;
-    this.loadResumeFromPath(resumePath);
+    this.cargarCurriculumDesdeRuta(rutaCurriculum);
   }
 
-  swapCurrentlyActiveLanguage(oppositeLangIconId) {
-    var pickedLangIconId =
-      oppositeLangIconId === window.$primaryLanguageIconId
+  cambiarIdiomaActivo(idIconoIdiomaOpuesto) {
+    var idIconoIdiomaSeleccionado =
+      idIconoIdiomaOpuesto === window.$primaryLanguageIconId
         ? window.$secondaryLanguageIconId
         : window.$primaryLanguageIconId;
     document
-      .getElementById(oppositeLangIconId)
+      .getElementById(idIconoIdiomaOpuesto)
       .removeAttribute("filter", "brightness(40%)");
     document
-      .getElementById(pickedLangIconId)
+      .getElementById(idIconoIdiomaSeleccionado)
       .setAttribute("filter", "brightness(40%)");
   }
 
   componentDidMount() {
-    this.loadSharedData();
-    this.applyPickedLanguage(
+    this.cargarDatosCompartidos();
+    this.aplicarIdiomaSeleccionado(
       window.$primaryLanguage,
       window.$secondaryLanguageIconId
     );
   }
 
-  loadResumeFromPath(path) {
+  cargarCurriculumDesdeRuta(ruta) {
     $.ajax({
-      url: path,
+      url: ruta,
       dataType: "json",
       cache: false,
       success: function (data) {
@@ -64,7 +64,7 @@ class App extends Component {
     });
   }
 
-  loadSharedData() {
+  cargarDatosCompartidos() {
     $.ajax({
       url: `portfolio_shared_data.json`,
       dataType: "json",
@@ -86,7 +86,7 @@ class App extends Component {
         <div className="col-md-12 mx-auto text-center language">
           <div
             onClick={() =>
-              this.applyPickedLanguage(
+              this.aplicarIdiomaSeleccionado(
                 window.$primaryLanguage,
                 window.$secondaryLanguageIconId
               )
@@ -102,7 +102,7 @@ class App extends Component {
           </div>
           <div
             onClick={() =>
-              this.applyPickedLanguage(
+              this.aplicarIdiomaSeleccionado(
                 window.$secondaryLanguage,
                 window.$primaryLanguageIconId
               )

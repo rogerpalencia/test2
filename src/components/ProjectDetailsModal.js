@@ -4,23 +4,24 @@ import AwesomeSlider from "react-awesome-slider";
 import AwesomeSliderStyles from "../scss/light-slider.scss";
 import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
-class ProjectDetailsModal extends Component {
+
+class DetallesProyectoModal extends Component {
   render() {
-    if (this.props.data) {
-      const technologies = this.props.data.technologies;
-      const images = this.props.data.images;
-      var title = this.props.data.title;
-      var description = this.props.data.description;
-      var url = this.props.data.url;
-      if (this.props.data.technologies) {
-        var tech = technologies.map((icons, i) => {
+    if (this.props.datos) {
+      const tecnologias = this.props.datos.tecnologias;
+      const imagenes = this.props.datos.imagenes;
+      var titulo = this.props.datos.titulo;
+      var descripcion = this.props.datos.descripcion;
+      var url = this.props.datos.url;
+      if (this.props.datos.tecnologias) {
+        var tech = tecnologias.map((iconos, i) => {
           return (
             <li className="list-inline-item mx-3" key={i}>
               <span>
                 <div className="text-center">
-                  <i className={icons.class} style={{ fontSize: "300%" }}>
+                  <i className={iconos.class} style={{ fontSize: "300%" }}>
                     <p className="text-center" style={{ fontSize: "30%" }}>
-                      {icons.name}
+                      {iconos.name}
                     </p>
                   </i>
                 </div>
@@ -28,8 +29,8 @@ class ProjectDetailsModal extends Component {
             </li>
           );
         });
-        if (this.props.data.images) {
-          var img = images.map((elem, i) => {
+        if (this.props.datos.imagenes) {
+          var img = imagenes.map((elem, i) => {
             return <div key={i} data-src={elem} />;
           });
         }
@@ -78,7 +79,7 @@ class ProjectDetailsModal extends Component {
           </div>
           <div className="col-md-10 mx-auto">
             <h3 style={{ padding: "5px 5px 0 5px" }}>
-              {title}
+              {titulo}
               {url ? (
                 <a
                   href={url}
@@ -93,7 +94,7 @@ class ProjectDetailsModal extends Component {
                 </a>
               ) : null}
             </h3>
-            <p className="modal-description">{description}</p>
+            <p className="modal-description">{descripcion}</p>
             <div className="col-md-12 text-center">
               <ul className="list-inline mx-auto">{tech}</ul>
             </div>
@@ -104,4 +105,4 @@ class ProjectDetailsModal extends Component {
   }
 }
 
-export default ProjectDetailsModal;
+export default DetallesProyectoModal;
