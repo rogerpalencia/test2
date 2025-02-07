@@ -1,21 +1,21 @@
 import React, { Component } from "react";
-import ProjectDetailsModal from "./ProjectDetailsModal";
+import DetallesProyectoModal from "./ProjectDetailsModal";
 
-class Projects extends Component {
+class Proyectos extends Component {
   constructor(props) {
     super(props);
     this.state = {
       deps: {},
-      detailsModalShow: false,
+      detallesModalMostrar: false,
     };
   }
 
   render() {
-    let detailsModalShow = (data) => {
-      this.setState({ detailsModalShow: true, deps: data });
+    let detallesModalMostrar = (data) => {
+      this.setState({ detallesModalMostrar: true, deps: data });
     };
 
-    let detailsModalClose = () => this.setState({ detailsModalShow: false });
+    let detallesModalCerrar = () => this.setState({ detallesModalMostrar: false });
     if (this.props.resumeProjects && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.projects;
       var projects = this.props.resumeProjects.map(function (projects) {
@@ -26,7 +26,7 @@ class Projects extends Component {
             style={{ cursor: "pointer" }}
           >
             <span className="portfolio-item d-block">
-              <div className="foto" onClick={() => detailsModalShow(projects)}>
+              <div className="foto" onClick={() => detallesModalMostrar(projects)}>
                 <div>
                   <img
                     src={projects.images[0]}
@@ -56,9 +56,9 @@ class Projects extends Component {
           <div className="col-md-12 mx-auto">
             <div className="row mx-auto">{projects}</div>
           </div>
-          <ProjectDetailsModal
-            show={this.state.detailsModalShow}
-            onHide={detailsModalClose}
+          <DetallesProyectoModal
+            show={this.state.detallesModalMostrar}
+            onHide={detallesModalCerrar}
             data={this.state.deps}
           />
         </div>
@@ -67,4 +67,4 @@ class Projects extends Component {
   }
 }
 
-export default Projects;
+export default Proyectos;

@@ -16,22 +16,22 @@ html {
   font-family: var(--font-body); // Inter para texto general
 }
 
-.aligner {
+.alineador {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.title-container {
+.contenedor-titulo {
   height: 50px;
 }
 
-.title-styles {
+.estilos-titulo {
   font-family: var(--font-title); // Poppins para títulos
   font-size: 250%;
 }
 
-.header-icon {
+.icono-encabezado {
   height: 150px;
   width: 150px;
 }
@@ -64,12 +64,12 @@ header h1 {
   width: 100%;
 }
 
-.language-icon {
+icono-idioma {
   font-size: 50px;
   cursor: pointer;
 }
 
-.project-date {
+fecha-proyecto {
   font-size: 16px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 8px 15px 2px 15px;
@@ -81,7 +81,7 @@ header h1 {
   color: white;
 }
 
-.skills-tile {
+tile-habilidades {
   background-color: transparentize(#F8F5F4, 0.95);
   padding: 10px 10px 5px 10px;
   width: 100px;
@@ -89,37 +89,37 @@ header h1 {
   border-radius: 8px;
 }
 
-.language {
+idioma {
   font-size: 25px;
   background-color: #e9d5a1;
   padding-bottom: 10px;
   padding-top: 80px;
 }
 
-.slider-image {
+imagen-slider {
   border: 5px solid #D7CAAA;
 }
 
-.slider-tab {
+pestaña-slider {
   background-color: #D7CAAA;
   height: 25px;
 }
 
-.slider-iconfiy {
+icono-slider {
   margin-top: 10px;
 }
 
-.styles_typicalWrapper__1_Uvh::after {
+styles_typicalWrapper__1_Uvh::after {
   cursor: none !important;
   display: none;
 }
 
-#about {
+#sobre-mi {
   background: #fff;
   overflow: hidden;
 }
 
-#about h1 {
+#sobre-mi h1 {
   padding-top: 5%;
   font-family: var(--font-title); // Poppins para títulos
   text-transform: uppercase;
@@ -128,12 +128,12 @@ header h1 {
   text-align: center;
 }
 
-.foto img {
+foto img {
   display: block;
   width: 100%;
 }
 
-.foto div {
+foto div {
   background: #ffffff;
   display: inline-block;
   margin: 0 auto 5% auto;
@@ -150,7 +150,7 @@ header h1 {
   position: relative;
 }
 
-.foto div:after {
+foto div:after {
   color: #333;
   font-size: 25px;
   content: attr(title);
@@ -158,7 +158,7 @@ header h1 {
   top: 15px;
 }
 
-.foto div:hover {
+foto div:hover {
   -webkit-transform: scale(1.01);
   -moz-transform: scale(1.01);
   transform: scale(1.01);
@@ -168,7 +168,7 @@ header h1 {
   box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
 }
 
-.project-title-settings {
+configuración-título-proyecto {
   margin-top: 5%;
   font-family: var(--font-title); // Poppins para títulos
   text-transform: uppercase;
@@ -177,12 +177,12 @@ header h1 {
   text-align: center;
 }
 
-.polaroid img {
+polaroid img {
   display: block;
   max-width: 200px;
 }
 
-.polaroid span {
+polaroid span {
   background: #ffffff;
   display: inline-block;
   margin: 55px 75px 30px;
@@ -199,19 +199,19 @@ header h1 {
   position: relative;
 }
 
-.link-href {
+enlace-href {
   color: black;
 }
 
-.wave {
+ola {
   font-size: 160%;
 }
 
-.font-trebuchet {
+fuente-trebuchet {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#preview {
+#vista-previa {
   width: 500px;
   background-color: #ebeaf5;
   padding: 15px;
@@ -219,23 +219,23 @@ header h1 {
   margin-bottom: 15%;
 }
 
-.center {
+centro {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#resume {
+#curriculum {
   background: #efe1bd;
 }
 
-.experience-icon {
+icono-experiencia {
   font-size: 300%;
   margin-top: 25%;
   text-align: center;
 }
 
-.main-badge {
+insignia-principal {
   font-size: 13px !important;
   text-align: left !important;
   padding: 5px 8px 5px 8px !important;
@@ -246,7 +246,7 @@ header h1 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.experience-badge {
+insignia-experiencia {
   font-size: 11px !important;
   text-align: left !important;
   padding: 5px 8px 5px 8px !important;
@@ -257,36 +257,36 @@ header h1 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.vertical-timeline-element-date {
+fecha-elemento-linea-vertical {
   padding: 0 !important;
   margin: 0 !important;
 }
 
 @media only screen and (max-width: 1170px) {
-  .experience-icon {
+  .icono-experiencia {
     font-size: 170%;
     margin-top: 27%;
     text-align: center;
   }
 }
 
-.modal-inside .modal-content {
+.modal-dentro .contenido-modal {
   background: white;
 }
 
-.bars {
+barras {
   width: 95%;
   float: left;
   padding: 0;
   text-align: left;
 }
 
-.bars .skills {
+barras .habilidades {
   margin-top: 36px;
   list-style: none;
 }
 
-.bars li {
+barras li {
   position: relative;
   margin-bottom: 60px;
   background: #ccc;
@@ -294,7 +294,7 @@ header h1 {
   border-radius: 3px;
 }
 
-.bars li em {
+barras li em {
   font: 15px 'opensans-bold', sans-serif;
   color: #313131;
   text-transform: uppercase;
@@ -304,7 +304,7 @@ header h1 {
   top: -36px;
 }
 
-.bar-expand {
+barra-expandir {
   position: absolute;
   left: 0;
   top: 0;
@@ -317,48 +317,48 @@ header h1 {
   border-radius: 3px 0 0 3px;
 }
 
-.modal-close {
+modal-cerrar {
   text-align: right;
   padding: 10px 15px 10px 15px;
   cursor: pointer;
 }
 
-.close-icon {
+icono-cerrar {
   color: black;
   font-weight: lighter !important;
 }
 
-.modal-description {
+descripción-modal {
   text-align: justify;
   padding: 5px 5px 0 5px;
   margin-bottom: 20px;
   font-size: 12px;
 }
 
-.awssld__next {
+.awssld__siguiente {
   outline: none !important;
 }
 
-.awssld__prev {
+.awssld__anterior {
   outline: none !important;
 }
 
-.loader-bar-color {
+color-barra-cargador {
   color: black !important;
 }
 
-#portfolio {
+#portafolio {
   background: #efe1bd;
   padding-bottom: 5%;
 }
 
-.portfolio-item {
+elemento-portafolio {
   max-width: 100%;
   margin-bottom: 15px;
   text-align: center;
 }
 
-.portfolio .portfolio-item .portfolio-item-caption {
+.portafolio .elemento-portafolio .portafolio-elemento-caption {
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
@@ -366,24 +366,24 @@ header h1 {
   background-color: rgba(51, 51, 51, 0.9);
 }
 
-.portfolio .portfolio-item .portfolio-item-caption:hover {
+.portafolio .elemento-portafolio .portafolio-elemento-caption:hover {
   opacity: 1;
 }
 
-.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+.portafolio .elemento-portafolio .portafolio-elemento-caption .portafolio-elemento-caption-content {
   font-size: 1.5rem;
 }
 
 @media (min-width: 576px) {
-  .portfolio .closeButtonResponsive {
+  .portafolio .botónCerrarResponsive {
     display: block;
   }
-  .portfolio .portfolio-item {
+  .portafolio .elemento-portafolio {
     margin-bottom: 30px;
   }
 }
 
-#skills {
+#habilidades {
   background: #3C415C;
   min-height: 200px;
   width: 100%;
@@ -391,7 +391,7 @@ header h1 {
   padding-bottom: 10%;
 }
 
-.section-title {
+.título-sección {
   padding-top: 5%;
   padding-bottom: 5%;
   font-family: var(--font-title); // Poppins para títulos
@@ -401,14 +401,14 @@ header h1 {
   text-align: center;
 }
 
-.skill-icon {
+icono-habilidad {
   font-size: 180%;
   color: white;
   text-align: center;
   position: relative;
 }
 
-footer {
+pie-de-página {
   background: #3C415C;
   min-height: 100px;
   width: 100%;
@@ -419,17 +419,17 @@ footer {
   text-align: center;
 }
 
-footer a,
-footer a:visited {
+pie-de-página a,
+pie-de-página a:visited {
   color: #fff;
 }
 
-footer a:hover,
-footer a:focus {
+pie-de-página a:hover,
+pie-de-página a:focus {
   color: #fff;
 }
 
-.social-links {
+enlaces-sociales {
   margin-top: 50px;
   font-size: 22px;
 }
