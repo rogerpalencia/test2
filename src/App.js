@@ -71,7 +71,7 @@ class App extends Component {
       cache: false,
       success: function (data) {
         this.setState({ sharedData: data });
-        document.title = `${this.state.sharedData.basic_info.name}`;
+        document.title = `${this.state.sharedData.informacion_basica.nombre}`;
       }.bind(this),
       error: function (xhr, status, err) {
         alert(err);
@@ -82,7 +82,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header sharedData={this.state.sharedData.basic_info} />
+        <Header sharedData={this.state.sharedData.informacion_basica} />
         <div className="col-md-12 mx-auto text-center language">
           <div
             onClick={() =>
@@ -118,22 +118,22 @@ class App extends Component {
           </div>
         </div>
         <About
-          resumeBasicInfo={this.state.resumeData.basic_info}
-          sharedBasicInfo={this.state.sharedData.basic_info}
+          resumeBasicInfo={this.state.resumeData.informacion_basica}
+          sharedBasicInfo={this.state.sharedData.informacion_basica}
         />
         <Projects
-          resumeProjects={this.state.resumeData.projects}
-          resumeBasicInfo={this.state.resumeData.basic_info}
+          resumeProjects={this.state.resumeData.proyectos}
+          resumeBasicInfo={this.state.resumeData.informacion_basica}
         />
         <Skills
-          sharedSkills={this.state.sharedData.skills}
-          resumeBasicInfo={this.state.resumeData.basic_info}
+          sharedSkills={this.state.sharedData.habilidades}
+          resumeBasicInfo={this.state.resumeData.informacion_basica}
         />
         <Experience
-          resumeExperience={this.state.resumeData.experience}
-          resumeBasicInfo={this.state.resumeData.basic_info}
+          resumeExperience={this.state.resumeData.experiencia}
+          resumeBasicInfo={this.state.resumeData.informacion_basica}
         />
-        <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
+        <Footer sharedBasicInfo={this.state.sharedData.informacion_basica} />
       </div>
     );
   }

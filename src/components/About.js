@@ -7,10 +7,10 @@ import vueIcon from "@iconify/icons-logos/vue";
 class About extends Component {
   render() {
     const { sharedBasicInfo, resumeBasicInfo } = this.props;
-    const profilepic = sharedBasicInfo ? "images/" + sharedBasicInfo.image : "";
-    const sectionName = resumeBasicInfo ? resumeBasicInfo.section_name.about : "";
-    const hello = resumeBasicInfo ? resumeBasicInfo.description_header : "";
-    const about = resumeBasicInfo ? resumeBasicInfo.description : "";
+    const profilepic = sharedBasicInfo ? "images/" + sharedBasicInfo.imagen : "";
+    const sectionName = resumeBasicInfo ? resumeBasicInfo.nombre_seccion.sobre_mi : "";
+    const hello = resumeBasicInfo ? resumeBasicInfo.descripcion_encabezado : "";
+    const about = resumeBasicInfo ? resumeBasicInfo.descripcion : "";
 
     return (
       <section id="about">

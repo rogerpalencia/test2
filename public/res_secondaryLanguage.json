@@ -1,180 +1,152 @@
 {
-  "basic_info": {
-    "description_header": "Hola",
-    "description": "👋 Soy Kevin Palencia, Ingeniero de Sistemas con más de 3 años de experiencia en desarrollo de software. Me especializo en la optimización de sistemas, automatización de procesos y mejora de experiencias de usuario. Tengo habilidades en PHP, JavaScript, frameworks modernos como React y Angular, y tecnologías backend como PostgreSQL y MySQL. Apasionado por la inteligencia artificial y sus aplicaciones en el desarrollo web.",
-    "section_name": {
-      "about": "Sobre mí",
-      "projects": "Proyectos",
-      "skills": "Habilidades",
-      "experience": "Experiencia"
+  "informacion_basica": {
+    "descripcion_encabezado": "Hola",
+    "descripcion": "👋 Soy Kevin Palencia, Ingeniero de Sistemas con más de 3 años de experiencia en desarrollo de software. Me especializo en la optimización de sistemas, automatización de procesos y mejora de experiencias de usuario. Tengo habilidades en PHP, JavaScript, frameworks modernos como React y Angular, y tecnologías backend como PostgreSQL y MySQL. Apasionado por la inteligencia artificial y sus aplicaciones en el desarrollo web.",
+    "nombre_seccion": {
+      "sobre_mi": "Sobre mí",
+      "proyectos": "Proyectos",
+      "habilidades": "Habilidades",
+      "experiencia": "Experiencia"
     }
   },
-  "projects": [
+  "proyectos": [
     {
-      "title": "Vanguard Experience",
-      "startDate": "Mayo 2021",
-      "endDate": "Octubre 2021 / Septiembre 2024 - Octubre 2024",
-      "description": "Desarrollé un sitio web y un sistema de reservas para una empresa de alquiler de villas de lujo en México, creando una interfaz intuitiva y visualmente atractiva. Posteriormente, realicé un rebranding completo y mejoré la presencia digital de la plataforma.",
-      "images": [
+      "titulo": "Vanguard Experience",
+      "fecha_inicio": "Mayo 2021",
+      "fecha_fin": "Octubre 2021 / Septiembre 2024 - Octubre 2024",
+      "descripcion": "Desarrollé un sitio web y un sistema de reservas para una empresa de alquiler de villas de lujo en México, creando una interfaz intuitiva y visualmente atractiva. Posteriormente, realicé un rebranding completo y mejoré la presencia digital de la plataforma.",
+      "imagenes": [
         "images/portfolio/vanguard/p1.jpg",
         "images/portfolio/vanguard/p2.jpg"
       ],
       "url": "https://vanguardexperience.com",
-      "technologies": [
+      "tecnologias": [
         {
-          "class": "devicon-react-original",
-          "name": "React"
+          "clase": "devicon-react-original",
+          "nombre": "React"
         },
         {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
+          "clase": "devicon-javascript-plain",
+          "nombre": "JavaScript"
         },
         {
-          "class": "devicon-bootstrap-plain",
-          "name": "Bootstrap"
+          "clase": "devicon-bootstrap-plain",
+          "nombre": "Bootstrap"
         }
       ]
     },
     {
-      "title": "Sistema Tributario de Puerto Cabello",
-      "startDate": "Febrero 2023",
-      "endDate": "Junio 2024",
-      "description": "Desarrollé el 90% del módulo de recaudación de eventos públicos para el sistema tributario de Puerto Cabello, automatizando procesos y reduciendo los tiempos de autorización de 72 a 24 horas.",
-      "images": [
+      "titulo": "Sistema Tributario de Puerto Cabello",
+      "fecha_inicio": "Febrero 2023",
+      "fecha_fin": "Junio 2024",
+      "descripcion": "Desarrollé el 90% del módulo de recaudación de eventos públicos para el sistema tributario de Puerto Cabello, automatizando procesos y reduciendo los tiempos de autorización de 72 a 24 horas.",
+      "imagenes": [
         "images/portfolio/tax-system/p1.jpg",
         "images/portfolio/tax-system/p2.jpg"
       ],
       "url": "",
-      "technologies": [
+      "tecnologias": [
         {
-          "class": "devicon-php-plain",
-          "name": "PHP"
+          "clase": "devicon-php-plain",
+          "nombre": "PHP"
         },
         {
-          "class": "devicon-mysql-plain",
-          "name": "MySQL"
+          "clase": "devicon-mysql-plain",
+          "nombre": "MySQL"
         },
         {
-          "class": "devicon-bootstrap-plain",
-          "name": "Bootstrap"
+          "clase": "devicon-bootstrap-plain",
+          "nombre": "Bootstrap"
         }
       ]
     },
     {
-      "title": "Sistema de Gestión de Graduaciones",
-      "startDate": "Julio 2023",
-      "endDate": "Octubre 2023",
-      "description": "Desarrollé un sistema para automatizar la programación de ceremonias de graduación, el seguimiento de pagos y la entrega de togas, mejorando la eficiencia y reduciendo el esfuerzo manual.",
-      "images": [
+      "titulo": "Sistema de Gestión de Graduaciones",
+      "fecha_inicio": "Julio 2023",
+      "fecha_fin": "Octubre 2023",
+      "descripcion": "Desarrollé un sistema para automatizar la programación de ceremonias de graduación, el seguimiento de pagos y la entrega de togas, mejorando la eficiencia y reduciendo el esfuerzo manual.",
+      "imagenes": [
         "images/portfolio/graduation/p1.jpg",
         "images/portfolio/graduation/p2.jpg"
       ],
       "url": "",
-      "technologies": [
+      "tecnologias": [
         {
-          "class": "devicon-react-original",
-          "name": "React"
+          "clase": "devicon-react-original",
+          "nombre": "React"
         },
         {
-          "class": "devicon-python-plain",
-          "name": "Python"
+          "clase": "devicon-python-plain",
+          "nombre": "Python"
         },
         {
-          "class": "devicon-postgresql-plain",
-          "name": "PostgreSQL"
+          "clase": "devicon-postgresql-plain",
+          "nombre": "PostgreSQL"
         }
       ]
     },
     {
-      "title": "Sistema de Cotizaciones FMC",
-      "startDate": "Marzo 2024",
-      "endDate": "Julio 2024",
-      "description": "Desarrollé un sistema de cotizaciones y un sitio web corporativo para un fabricante de piezas de frenos, mejorando la interacción con los clientes y los tiempos de respuesta. Optimicé la funcionalidad del sitio y su adaptabilidad a diferentes dispositivos.",
-      "images": [
+      "titulo": "Sistema de Cotizaciones FMC",
+      "fecha_inicio": "Marzo 2024",
+      "fecha_fin": "Julio 2024",
+      "descripcion": "Desarrollé un sistema de cotizaciones y un sitio web corporativo para un fabricante de piezas de frenos, mejorando la interacción con los clientes y los tiempos de respuesta. Optimicé la funcionalidad del sitio y su adaptabilidad a diferentes dispositivos.",
+      "imagenes": [
         "images/portfolio/fmc/p1.jpg",
         "images/portfolio/fmc/p2.jpg"
       ],
       "url": "https://fmcvnzla.com",
-      "technologies": [
+      "tecnologias": [
         {
-          "class": "devicon-wordpress-plain",
-          "name": "WordPress"
+          "clase": "devicon-wordpress-plain",
+          "nombre": "WordPress"
         },
         {
-          "class": "devicon-php-plain",
-          "name": "PHP"
+          "clase": "devicon-php-plain",
+          "nombre": "PHP"
         },
         {
-          "class": "devicon-bootstrap-plain",
-          "name": "Bootstrap"
+          "clase": "devicon-bootstrap-plain",
+          "nombre": "Bootstrap"
         }
       ]
     }
   ],
-  "experience": [
+  "experiencia": [
     {
-      "company": "J2D, C.A, Venezuela",
-      "title": "Desarrollador PHP Junior",
-      "years": "Febrero 2023 - Junio 2024",
-      "description": "Desarrollé el 90% del módulo de recaudación de eventos públicos para el sistema tributario de Puerto Cabello, automatizando el proceso y reduciendo los tiempos de autorización de 72 a 24 horas.",
-      "mainTech": [
-        "PHP",
-        "MySQL"
-      ],
-      "technologies": [
-        "Bootstrap",
-        "JavaScript",
-        "Git",
-        "Laravel"
-      ]
+      "empresa": "J2D, C.A, Venezuela",
+      "titulo": "Desarrollador PHP Junior",
+      "anos": "Febrero 2023 - Junio 2024",
+      "descripcion": "Desarrollé el 90% del módulo de recaudación de eventos públicos para el sistema tributario de Puerto Cabello, automatizando el proceso y reduciendo los tiempos de autorización de 72 a 24 horas.",
+      "tecnologia_principal": ["PHP", "MySQL"],
+      "tecnologias": ["Bootstrap", "JavaScript", "Git", "Laravel"],
+      "icono": "fab fa-php"
     },
     {
-      "company": "Freelance",
-      "title": "Desarrollador de Software",
-      "years": "Mayo 2021 - Presente",
-      "description": "Desarrollé múltiples proyectos web para clientes, especializándome en desarrollo full-stack, optimización de rendimiento y mejoras en UI/UX.",
-      "mainTech": [
-        "React",
-        "JavaScript",
-        "PHP"
-      ],
-      "technologies": [
-        "WordPress",
-        "PostgreSQL",
-        "Figma",
-        "SEO",
-        "IA y Automatización"
-      ]
+      "empresa": "Freelance",
+      "titulo": "Desarrollador de Software",
+      "anos": "Mayo 2021 - Presente",
+      "descripcion": "Desarrollé múltiples proyectos web para clientes, especializándome en desarrollo full-stack, optimización de rendimiento y mejoras en UI/UX.",
+      "tecnologia_principal": ["React", "JavaScript", "PHP"],
+      "tecnologias": ["WordPress", "PostgreSQL", "Figma", "SEO", "IA y Automatización"],
+      "icono": "fab fa-react"
     },
     {
-      "company": "Universidad Territorial Brito Figueroa",
-      "title": "Proyecto de Grado Especial",
-      "years": "Julio 2023 - Octubre 2023",
-      "description": "Creé un sistema de gestión de graduaciones, automatizando tareas clave como la programación de ceremonias, el seguimiento de pagos y la entrega de togas, mejorando la eficiencia y reduciendo el esfuerzo manual.",
-      "mainTech": [
-        "React",
-        "Python"
-      ],
-      "technologies": [
-        "PostgreSQL",
-        "Bootstrap",
-        "JavaScript"
-      ]
+      "empresa": "Universidad Territorial Brito Figueroa",
+      "titulo": "Proyecto de Grado Especial",
+      "anos": "Julio 2023 - Octubre 2023",
+      "descripcion": "Creé un sistema de gestión de graduaciones, automatizando tareas clave como la programación de ceremonias, el seguimiento de pagos y la entrega de togas, mejorando la eficiencia y reduciendo el esfuerzo manual.",
+      "tecnologia_principal": ["React", "Python"],
+      "tecnologias": ["PostgreSQL", "Bootstrap", "JavaScript"],
+      "icono": "fab fa-python"
     },
     {
-      "company": "FMC, C.A.",
-      "title": "Desarrollador Freelance",
-      "years": "Marzo 2024 - Julio 2024",
-      "description": "Desarrollé un sistema de cotizaciones y un sitio web corporativo para un fabricante de piezas de frenos, mejorando la interacción con los clientes y los tiempos de respuesta.",
-      "mainTech": [
-        "PHP",
-        "WordPress"
-      ],
-      "technologies": [
-        "Bootstrap",
-        "JavaScript",
-        "MySQL"
-      ]
+      "empresa": "FMC, C.A.",
+      "titulo": "Desarrollador Freelance",
+      "anos": "Marzo 2024 - Julio 2024",
+      "descripcion": "Desarrollé un sistema de cotizaciones y un sitio web corporativo para un fabricante de piezas de frenos, mejorando la interacción con los clientes y los tiempos de respuesta.",
+      "tecnologia_principal": ["PHP", "WordPress"],
+      "tecnologias": ["Bootstrap", "JavaScript", "MySQL"],
+      "icono": "fab fa-wordpress"
     }
   ]
 }

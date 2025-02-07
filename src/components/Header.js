@@ -15,8 +15,8 @@ class Header extends Component {
 
   render() {
     if (this.props.sharedData) {
-      var name = this.props.sharedData.name;
-      this.titles = this.props.sharedData.titles.map(x => [ x.toUpperCase(), 1500 ] ).flat();
+      var nombre = this.props.sharedData.nombre;
+      this.titles = this.props.sharedData.titulos.map(x => [ x.toUpperCase(), 1500 ] ).flat();
     }
 
     const HeaderTitleTypeAnimation = React.memo(() => {
@@ -31,7 +31,7 @@ class Header extends Component {
               <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
               <br/>
               <h1 className="mb-0">
-                <Typical steps={[name]} wrapper="p" />
+                <Typical steps={[nombre]} wrapper="p" />
               </h1>
               <div className="title-container">
                 <HeaderTitleTypeAnimation />

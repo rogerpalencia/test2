@@ -9,7 +9,7 @@ import Badge from "react-bootstrap/Badge";
 class Experience extends Component {
   render() {
     if (this.props.resumeExperience && this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.experience;
+      var sectionName = this.props.resumeBasicInfo.nombre_seccion.experiencia;
 
       // Diccionario de iconos según la tecnología principal
       const techIcons = {
@@ -27,8 +27,8 @@ class Experience extends Component {
       };
 
       var work = this.props.resumeExperience.map(function (work, i) {
-        const technologies = work.technologies;
-        const mainTechnologies = work.mainTech;
+        const technologies = work.tecnologias;
+        const mainTechnologies = work.tecnologia_principal;
 
         // Seleccionar icono basado en la primera tecnología principal
         const mainTechIcon =
@@ -53,7 +53,7 @@ class Experience extends Component {
         return (
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={work.years}
+            date={work.anos}
             iconStyle={{
               background: "#AE944F",
               color: "#fff",
@@ -70,13 +70,13 @@ class Experience extends Component {
               className="vertical-timeline-element-title"
               style={{ textAlign: "left" }}
             >
-              {work.title}
+              {work.titulo}
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               style={{ textAlign: "left" }}
             >
-              {work.company}
+              {work.empresa}
             </h4>
             <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
           </VerticalTimelineElement>

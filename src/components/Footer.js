@@ -5,9 +5,9 @@ class Footer extends Component {
     if (this.props.sharedBasicInfo) {
       var networks = this.props.sharedBasicInfo.social.map(function (network) {
         return (
-          <span key={network.name} className="m-4">
+          <span key={network.nombre} className="m-4">
             <a href={network.url} target="_blank" rel="noopener noreferrer">
-              <i className={network.class}></i>
+              <i className={network.clase}></i>
             </a>
           </span>
         );
@@ -24,7 +24,7 @@ class Footer extends Component {
               <small>
                 Copyright &copy;{" "}
                 {this.props.sharedBasicInfo
-                  ? this.props.sharedBasicInfo.name
+                  ? this.props.sharedBasicInfo.nombre
                   : "???"}
               </small>
             </div>

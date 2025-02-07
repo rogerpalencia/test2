@@ -3,24 +3,22 @@ import React, { Component } from "react";
 class Skills extends Component {
   render() {
     if (this.props.sharedSkills && this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.skills;
-      var skills = this.props.sharedSkills.icons.map(function (skills, i) {
+      var sectionName = this.props.resumeBasicInfo.nombre_seccion.habilidades;
+      var skills = this.props.sharedSkills.iconos.map(function (skills, i) {
         return (
           <li className="list-inline-item mx-3" key={i}>
             <div className="text-center skills-tile">
-              {/* Se aplica el ícono con su clase */}
-              <i className={skills.class} style={{ fontSize: "220%" }}></i>
-              {/* Se mueve el texto fuera del <i> para que reciba estilos correctamente */}
+              <i className={skills.clase} style={{ fontSize: "220%" }}></i>
               <p
                 className="text-center"
                 style={{
-                  fontSize: "60%", // Ajustado para mayor visibilidad
+                  fontSize: "60%",
                   marginTop: "8px",
-                  fontWeight: "600", // Opción para mejor visibilidad
-                  color: "#ffffff", // Ajusta según el fondo
+                  fontWeight: "600",
+                  color: "#ffffff",
                 }}
               >
-                {skills.name}
+                {skills.nombre}
               </p>
             </div>
           </li>
